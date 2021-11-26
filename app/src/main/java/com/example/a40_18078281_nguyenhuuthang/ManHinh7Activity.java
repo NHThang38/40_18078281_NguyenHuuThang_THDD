@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-// Customer_Screen
-public class ManHinh6Activity2 extends AppCompatActivity {
+public class ManHinh7Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_man_hinh62);
+        setContentView(R.layout.activity_man_hinh7);
     }
 }
