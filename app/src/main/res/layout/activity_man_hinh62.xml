@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/duongke" />
 
     <ImageView
-        android:id="@+id/imgBanCus1"
+        android:id="@+id/imgBanT1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/hinhban" />
 
     <ImageView
-        android:id="@+id/imgBanCus3"
+        android:id="@+id/imgBanT3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="264dp"
@@ -64,13 +64,13 @@
         app:srcCompat="@drawable/hinhban" />
 
     <ImageView
-        android:id="@+id/imgBanCus2"
+        android:id="@+id/imgBanT2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imgBanCus1"
-        app:layout_constraintStart_toEndOf="@+id/imgBanCus1"
-        app:layout_constraintTop_toTopOf="@+id/imgBanCus1"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBanT1"
+        app:layout_constraintStart_toEndOf="@+id/imgBanT1"
+        app:layout_constraintTop_toTopOf="@+id/imgBanT1"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/hinhban" />
 
@@ -81,10 +81,10 @@
         android:layout_marginTop="32dp"
         android:text="Ban 01"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/imgBanCus1"
+        app:layout_constraintEnd_toEndOf="@+id/imgBanT1"
         app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="@+id/imgBanCus1"
-        app:layout_constraintTop_toBottomOf="@+id/imgBanCus1" />
+        app:layout_constraintStart_toStartOf="@+id/imgBanT1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBanT1" />
 
     <TextView
         android:id="@+id/txtBan2"
@@ -93,19 +93,19 @@
         android:layout_marginTop="32dp"
         android:text="Ban 02"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/imgBanCus2"
+        app:layout_constraintEnd_toEndOf="@+id/imgBanT2"
         app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/imgBanCus2"
-        app:layout_constraintTop_toBottomOf="@+id/imgBanCus2" />
+        app:layout_constraintStart_toStartOf="@+id/imgBanT2"
+        app:layout_constraintTop_toBottomOf="@+id/imgBanT2" />
 
     <ImageView
-        android:id="@+id/imgBanCus4"
+        android:id="@+id/imgBanT4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imgBanCus3"
-        app:layout_constraintStart_toEndOf="@+id/imgBanCus3"
-        app:layout_constraintTop_toTopOf="@+id/imgBanCus3"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBanT3"
+        app:layout_constraintStart_toEndOf="@+id/imgBanT3"
+        app:layout_constraintTop_toTopOf="@+id/imgBanT3"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/hinhban" />
 
@@ -116,10 +116,10 @@
         android:layout_marginTop="20dp"
         android:text="Ban 03"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/imgBanCus3"
+        app:layout_constraintEnd_toEndOf="@+id/imgBanT3"
         app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="@+id/imgBanCus3"
-        app:layout_constraintTop_toBottomOf="@+id/imgBanCus3" />
+        app:layout_constraintStart_toStartOf="@+id/imgBanT3"
+        app:layout_constraintTop_toBottomOf="@+id/imgBanT3" />
 
     <TextView
         android:id="@+id/textView9"
@@ -128,10 +128,10 @@
         android:layout_marginTop="20dp"
         android:text="Ban 04"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/imgBanCus4"
+        app:layout_constraintEnd_toEndOf="@+id/imgBanT4"
         app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/imgBanCus4"
-        app:layout_constraintTop_toBottomOf="@+id/imgBanCus4" />
+        app:layout_constraintStart_toStartOf="@+id/imgBanT4"
+        app:layout_constraintTop_toBottomOf="@+id/imgBanT4" />
 
     <ImageView
         android:id="@+id/imgBanCus6"

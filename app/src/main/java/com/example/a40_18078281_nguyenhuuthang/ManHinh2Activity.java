@@ -17,10 +17,10 @@ public class ManHinh2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_man_hinh2);
 
-        imgB1 = findViewById(R.id.imgBanCus1);
-        imgB2 = findViewById(R.id.imgBanCus2);
-        imgB3 = findViewById(R.id.imgBanCus3);
-        imgB4 = findViewById(R.id.imgBanCus4);
+        imgB1 = findViewById(R.id.imgBanT1);
+        imgB2 = findViewById(R.id.imgBanT2);
+        imgB3 = findViewById(R.id.imgBanT3);
+        imgB4 = findViewById(R.id.imgBanT4);
         imgB5 = findViewById(R.id.imgBanCus5);
         imgB6 = findViewById(R.id.imgBanCus6);
 

@@ -45,7 +45,7 @@ public class ManHinh3Activity extends AppCompatActivity {
         txtGia4 = findViewById(R.id.txtGia4);
 
         txtKQ = findViewById(R.id.txtKQ);
-        btnTinhTien = findViewById(R.id.btnTinhTien);
+        btnTinhTien = findViewById(R.id.btnXemBi);
 
         //kich hoat service
         Intent intent = new Intent(ManHinh3Activity.this, MyService.class);

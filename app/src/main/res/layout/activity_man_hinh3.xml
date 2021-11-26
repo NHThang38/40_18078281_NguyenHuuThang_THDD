@@ -11,10 +11,12 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
         app:srcCompat="@drawable/mi" />
 
     <TextView
@@ -174,10 +176,11 @@
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
     <Button
-        android:id="@+id/btnTinhTien"
+        android:id="@+id/btnXemBi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFD233"
         android:text="Tinh TIen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

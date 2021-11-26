@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.40_18078281_NguyenHuuThang">
+        <activity
+            android:name=".ManHinh7Activity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -20,23 +24,37 @@
             android:exported="false" />
         <activity
             android:name=".ManHinh6Activity2"
-            android:exported="false" />
-        <activity
-            android:name=".ManHinh3Activity"
-            android:exported="false" />
-        <activity
-            android:name=".ManHinh2Activity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <service android:name=".MyService"/>
+        <activity
+            android:name=".ManHinh3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ManHinh2Activity"
+            android:exported="true">
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
+
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+    </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <service android:name=".MyService" />
     </application>
 
 </manifest>
