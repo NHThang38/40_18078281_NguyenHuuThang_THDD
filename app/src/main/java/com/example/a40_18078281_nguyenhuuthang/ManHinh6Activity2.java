@@ -19,23 +19,37 @@ public class ManHinh6Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_man_hinh62);
 
 
-        imgBC1 = findViewById(R.id.imgBanCus1);
-        imgBC2 = findViewById(R.id.imgBanCus2);
-        imgBC3 = findViewById(R.id.imgBanCus3);
-        imgBC4 = findViewById(R.id.imgBanCus4);
-        imgBC5 = findViewById(R.id.imgBanCus5);
-        imgBC6 = findViewById(R.id.imgBanCus6);
+        imgBC1 = findViewById(R.id.imgBanT1);
+        imgBC2 = findViewById(R.id.imgBanT2);
+        imgBC3 = findViewById(R.id.imgBanT3);
+
         btnXemBill = findViewById(R.id.btnXemBi);
-        btnXemBill.setOnClickListener(new View.OnClickListener() {
+//        btnXemBill.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent=new Intent(ManHinh6Activity2.this, ManHinh3Activity.class);
+//                Toast.makeText(ManHinh6Activity2.this, "Bat man hinh 3", Toast.LENGTH_SHORT).show();
+//                startActivity(intent);
+//            }
+//        });
+
+        imgBC1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(ManHinh6Activity2.this, ManHinh3Activity.class);
-                Toast.makeText(ManHinh6Activity2.this, "Bat man hinh 3", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(ManHinh6Activity2.this, ManHinh7Activity.class);
+                Toast.makeText(ManHinh6Activity2.this, "Bat man hinh 7", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
         });
-
-        imgBC1.setOnClickListener(new View.OnClickListener() {
+        imgBC2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(ManHinh6Activity2.this, ManHinh7Activity.class);
+                Toast.makeText(ManHinh6Activity2.this, "Bat man hinh 7", Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+            }
+        });
+        imgBC3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(ManHinh6Activity2.this, ManHinh7Activity.class);

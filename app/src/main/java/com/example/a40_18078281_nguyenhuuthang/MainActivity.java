@@ -54,10 +54,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(checkBox.isChecked()){
                     signIn();
-                    Intent intent=new Intent(MainActivity.this, ManHinh2Activity.class);
-                    Toast.makeText(MainActivity.this, "Man hinh 2 khach hang", Toast.LENGTH_SHORT).show();
-                    startActivity(intent);
+
                 }else{
+
                     Intent intent=new Intent(MainActivity.this, ManHinh6Activity2.class);
                     startActivity(intent);
                     Toast.makeText(MainActivity.this, "Man hinh 6", Toast.LENGTH_SHORT).show();
@@ -85,7 +84,9 @@ public class MainActivity extends AppCompatActivity {
     private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
         try {
             GoogleSignInAccount account = completedTask.getResult(ApiException.class);
-
+            Intent intent=new Intent(MainActivity.this, ManHinh2Activity.class);
+            Toast.makeText(MainActivity.this, "Man hinh 2 khach hang", Toast.LENGTH_SHORT).show();
+            startActivity(intent);
 
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.
