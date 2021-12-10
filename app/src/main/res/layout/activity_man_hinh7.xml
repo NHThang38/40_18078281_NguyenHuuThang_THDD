@@ -168,7 +168,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:backgroundTint="#FFD233"
-        android:text="Tinh TIen"
+        android:text="Xem Bill"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.447"
